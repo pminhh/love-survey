@@ -44,8 +44,10 @@ select {
   .letter {
     width: 40%;
     min-width: 300px;
-    font-size: large}
-  
+    }
+  body {
+    font-size: large;
+  }
   form {
     margin-right: 20%;
     margin-left: 20%;
