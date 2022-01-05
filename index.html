@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<header>
+ <h1 id="title">đơn đăng kí làm ngừi iu pm 💖🥀</h1>
+ <p id="description">trái tim mong manh íu đuối của pm hiện đang mở đơn tuyển đối tượng theo dõi. Đăng kí ngay!🌈🌈🌈</p>
+</header>
+
+<form id="survey-form" action="">
+  <div>
+  <label id="name-label" for="name">💘Tên bạn là:</label>
+  <input id="name" type="text" name="name" 
+         placeholder="nickname cũng được he"
+         class="box"
+         required/>
+  </div>
+  
+  <div>
+  <label id="email-label" for="email">💘Mail của bạn:</label>
+  <input id="email" type="email" name="email" class="box"
+         placeholder="để mình stalk bạn nhe"
+         required/>
+  </div>
+  
+  <div>
+   <label id="number-label" for="phone">💘Bạn hiện nhiu tuổi đó:</label>
+  <input id="number" type="number" name="age" 
+         min="1"
+         max="99"
+         placeholder="điền tuổi thật nha"
+         class="box"
+         required/> 
+  </div>
+  
+    <div>  
+  <p>💘MBTI của bạn là?</p>
+  <select id="dropdown" name="mbti" required>
+  <option disabled selected value>Lựa chọn đúng type nhé</option>
+  <option value="ISTJ">ISTJ - The Inspector</option>
+  <option value="ISTP">ISTP - The Crafter</option>
+  <option value="ISFJ">ISFJ - The Protector</option>
+  <option value="ISFP">ISFP - The Artist</option>
+  <option value="INFJ">INFJ - The Advocate</option>
+  <option value="INFP">INFP - The Mediator</option>
+  <option value="INTJ">INTJ - The Architect</option> 
+  <option value="INTP">INTP - The Thinker</option> 
+  <option value="ESTP">ESTP - The Persuader</option> 
+  <option value="ESTJ">ESTJ - The Director</option> 
+  <option value="ESFP">ESFP - The Performer</option> 
+  <option value="ESFJ">ESFJ - The Caregiver</option> 
+  <option value="ENFP">ENFP - The Champion</option> 
+  <option value="ENFJ">ENFJ - The Giver</option> 
+  <option value="ENTP">ENTP - The Debater</option> 
+  <option value="ENTJ">ENTJ - The Commander</option> 
+      </select>
+    </div>
+    
+   <div>
+     <p>💘Mức độ ưu tiên bạn sẽ dành cho mình trên các hoạt động khác:</p>
+    <label>
+    <input type="radio" name="uu-tien" value="number-1"/>số 1
+    </label> 
+
+    <label>
+    <input type="radio" name="uu-tien" value="number-2"/>số 2
+    </label>
+     
+    <label>
+    <input type="radio" name="uu-tien" value="number-3"/>số 3
+    </label>
+   </div> 
+    
+   <div>
+     <p>💘Bạn biết tới mình qua đâu?</p>
+     <label>
+       <input type="checkbox" value="fb"/> Facebook
+     </label>
+     
+     <label>
+       <input type="checkbox" value="ins"/> Instagram
+     </label>
+     
+     <label>
+       <input type="checkbox" value="other"/> Chỗ khác
+     </label>
+   </div>   
+      
+   <div>
+     <p>💘Bạn có điều gì muốn nói với mình không?</p>
+     <textarea id="loveletter" name="loveletter" class="letter"
+               placeholder="gửi mình một bức thư tình <3"></textarea>
+   </div>
+      <br>
+
+   <div>
+        <a href="thank-you-page.html" class="csw-btn-button" rel="nofollow"> Gửi đơn!🌈
+        </a>
+   </div>
+      
+</form>
+
+<footer>
+  <p class="footer"><i>--made by một trái tim băng giá</p>
+</footer>
+
+</html>
