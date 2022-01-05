@@ -2,3 +2,4 @@
 (đồng thời là simp lỏd)
 
 xem trang tại: https://pminhh.github.io/love-survey/
+(máy tính only)
