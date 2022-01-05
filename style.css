@@ -6,7 +6,7 @@ header {
 body {
   font-family: Inconsolata;
   background-color: #FFCDD2;
-  font-size: small;
+  font-size: large;
 }
 
 form {
@@ -44,10 +44,6 @@ select {
   .letter {
     width: 40%;
     min-width: 300px;}
-
-  body {
-    font-size: large;
-  }
   
   form {
     margin-right: 20%;
